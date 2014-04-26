@@ -16,3 +16,5 @@ It needs the following files for reading:
 
 ./train/X_train.txt - Feature variable values from Train split
 ./test/X_test.txt - Feature variable values from Test split
+
+Additional details on working of the script is described in CodeBook.md
