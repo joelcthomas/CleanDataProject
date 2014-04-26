@@ -22,9 +22,9 @@ run_analysis.R reads the train and test files and concatenates to a single data.
  - finalData: Holds the final clean data
 
  ####workflow
- . It is assumed, the data required are availbe in the format as described in README.md
- . read.table is used to read all 8 files that are required. 
- . cbind and rbind are used to combine all the data into a single data frame.
- . regex functions such as grepl are used to find which of the columns refer to mean() and std()
- . gsub function is used to remove chracters that are not allowed in column names.
- . Aggregate function is used to calculate the average of each feature variable for each activity and each subject.
+ - It is assumed, the data required are availbe in the format as described in README.md  
+ - read.table is used to read all 8 files that are required.  
+ - cbind and rbind are used to combine all the data into a single data frame.  
+ - regex functions such as grepl are used to find which of the columns refer to mean() and std()  
+ - gsub function is used to remove chracters that are not allowed in column names.  
+ - Aggregate function is used to calculate the average of each feature variable for each activity and each subject.  
