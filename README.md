@@ -14,12 +14,11 @@ CleanDataProject
 ./train/y_train.txt - Activity data from Train split  
 ./test/y_test.txt - Activity data from Test split  
 
-<<<<<<< HEAD
 ./train/X_train.txt - Feature variable values from Train split
 ./test/X_test.txt - Feature variable values from Test split
 
-Additional details on working of the script is described in CodeBook.md
-=======
 ./train/X_train.txt - Feature variable values from Train split  
 ./test/X_test.txt - Feature variable values from Test split  
->>>>>>> 2ba8ba55872db8ccec0e4e634d2a3c2933488db0
+
+
+#####Additional details on working of the script is described in CodeBook.md
